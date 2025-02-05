@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "ChatAPP",
+    "slug": "project003",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon1.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/heart2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "We need access to your photo library to upload images.",
+        "NSCameraUsageDescription": "We need access to your camera to take pictures.",
+        "NSPhotoLibraryAddUsageDescription": "We need to save images to your photo library."
+      }
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon1.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.chat.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "js",
+        "json",
+        "ts",
+        "tsx",
+        "jsx",
+        "svg"
+      ]
+    },
+    "owner": "YOURID",
+    "plugins": [
+      "expo-asset"
+    ]
+  }
+}
