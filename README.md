@@ -37,6 +37,8 @@ Follow these steps to set up the project locally:
 ### 4️⃣ Configure Firebase
 - Open the Firebase/firebaseConfig.js file.
 - Only change the const firebaseConfig object with your Firebase credentials.
+- Now download your Firebase Admin SDK json file.
+- Replace it with "practice-003-firebase-adminsdk-oi5qd-df0be164f0.json" file.
 
 ### 5️⃣ Add google-services.json
 - Download your google-services.json file from the Firebase Console.
